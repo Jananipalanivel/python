@@ -1,0 +1,13 @@
+a=int(input())
+b=list()
+for i in range (a):
+   c=input()
+   print(b)
+   if c=="A":
+    b.append(1)
+   elif c=="B":
+    b.append(0)
+   else :
+    b.append(c)
+print(b)
+ 
