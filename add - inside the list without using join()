@@ -1,0 +1,12 @@
+a=input()
+b=input()
+c=["Hi","da","Hi","Hello"]
+for i in range(len(c)):
+    if a==c[i]:
+        c[i]=b
+print(c)
+for i in range(len(c)):
+    print(c[i],end="")
+    if i!=len(c)-1:
+        print("-",end="")
+    
