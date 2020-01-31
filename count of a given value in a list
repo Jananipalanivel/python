@@ -1,0 +1,11 @@
+n=int(input())
+a=input()
+b=list()
+count=0
+for i in range(n):
+    b.append(input())
+for i in range(n):
+    if b[i]==a:
+        count+=1
+print(count)
+        
