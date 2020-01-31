@@ -1,0 +1,7 @@
+a=input()
+b=input()
+c=["Hi","da","Hi","Hello"]
+for i in range(len(c)):
+    if a==c[i]:
+        c[i]=b
+print(c)
