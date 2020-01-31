@@ -1,0 +1,6 @@
+a=input()
+b=input()
+c=a.index(b)
+print(a[:c])
+d=a.replace(b,"")
+print(d)
