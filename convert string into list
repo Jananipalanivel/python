@@ -1,0 +1,3 @@
+a="This is a job"
+b=a.split(" ")
+print(b)
