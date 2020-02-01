@@ -1,0 +1,12 @@
+n=int(input())
+if n==0:
+    print(0,0,0,sep="\n")
+else:
+    l=[]
+    for i in range(n):
+        l.append(int(input()))
+    l.sort()
+    print(*l,sep="\n")
+    print(min(l))
+    print(max(l))
+    
