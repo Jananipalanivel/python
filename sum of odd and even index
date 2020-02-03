@@ -1,0 +1,9 @@
+n=int(input())
+l=list(map(int,input().split(",")))
+c=l[::2]
+d=l[1::2]
+e=sum(d)-sum(c)
+if e>0:
+    print(e)
+else:
+    print(-e)
