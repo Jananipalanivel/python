@@ -1,0 +1,9 @@
+a=input()
+b=input()
+print(a[:4])
+e=a+b
+print(e)
+c=a[len(a)::-1]
+d=b[len(b)::-1]
+print(d+c)
+print(e[0]+e[len(e)-1])
