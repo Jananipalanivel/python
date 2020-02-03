@@ -1,0 +1,8 @@
+a=list(map(str,input().split()))
+b=list()
+n=int(input())
+for i in range(n):
+    b.append(input())
+for i in a:
+    if i[0] not in b:
+        print(i)
