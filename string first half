@@ -1,0 +1,8 @@
+n=input()
+a=len(n)
+b=a//2
+c=n[:b]
+d=n[b:]
+e=d
+f=c[len(c)::-1]
+print(f+e)
