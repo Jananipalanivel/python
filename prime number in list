@@ -1,0 +1,17 @@
+a=int(input())
+l=list(map(int,input().split(",")))
+cons=0
+for i in l:
+    if i==1 or i==0:
+        cons+=1
+    else:
+        n=i//2
+        for j in range (2,n+1):
+            if i%j==0:
+                cons+=1
+                break
+        else:
+            print(i)
+if cons==a:
+    print("nil")
+
