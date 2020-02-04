@@ -1,0 +1,51 @@
+n=input()
+a=len(n)
+l=[]
+if a==2:
+    b=int(n[0])
+    b1=b*b
+    l.append(b1)
+    c=int(n[1])
+    c1=c*c
+    l.append(c1)
+    d=sum(l)
+    d1=str(d)
+    if n==d1:
+        print("yes")
+    else:
+        print("no")
+if a==3:
+    b=int(n[0])
+    b1=b*b*b
+    l.append(b1)
+    c=int(n[1])
+    c1=c*c*c
+    l.append(c1)
+    d=int(n[2])
+    d1=d*d*d
+    l.append(d1)
+    e=sum(l)
+    e1=str(e)
+    if n==e1:
+        print("yes")
+    else:
+        print("no")
+if a==4:
+    b=int(n[0])
+    b1=b*b*b*b
+    l.append(b1)
+    c=int(n[1])
+    c1=c*c*c*c
+    l.append(c1)
+    d=int(n[2])
+    d1=d*d*d*d
+    l.append(d1)
+    e=int(n[3])
+    e1=e*e*e*e
+    l.append(e1)
+    f=sum(l)
+    f1=str(f)
+    if n==f1:
+        print("yes")
+    else:
+        print("no")
