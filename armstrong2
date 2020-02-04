@@ -1,0 +1,15 @@
+n=input()
+m=len(n)
+
+l=[]
+for i in n:
+    a=int(i)**m
+    l.append(a)
+b=sum(l)    
+if str(b)==n:
+    print("yes")
+else:
+    print("no")
+    
+
+ 
