@@ -1,0 +1,11 @@
+a=int(input())
+b=65
+if a>0:
+   for i in range(1,a+1):
+       for j in range(1,i+1):
+           c=chr(b)
+           print(c,end=" ")
+       b+=1
+       print()
+else:
+     print("0")
