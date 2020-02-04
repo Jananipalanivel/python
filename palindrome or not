@@ -1,0 +1,7 @@
+n=input()
+a=n[:len(n)]
+b=n[len(n)::-1]
+if a==b:
+    print("palindrome")
+else:
+    print("not palindrome")
