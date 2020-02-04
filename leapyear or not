@@ -1,0 +1,10 @@
+a=list(map(int,input().split(",")))
+if (a[0]%4)==0:
+    print("leap")
+else:
+    print("not leap")
+if (a[1]%4)==0:
+    print("leap")
+else:
+    print("not leap")
+        
