@@ -1,0 +1,15 @@
+a=int(input())
+b=[]
+if a>1:
+    for i in range(2,(a//2)+1):
+        if a%i==0:
+            print("Not a prime")
+            break
+    else:
+        b.append(a)
+        print(b)
+else:
+    print("not a prime")
+    
+    
+    
