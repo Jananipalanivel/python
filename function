@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+def add(a,b):
+    c=a+b
+    print(c)
+add(a,b)
