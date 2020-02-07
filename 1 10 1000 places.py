@@ -1,0 +1,21 @@
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+c=list(map(int,input().split()))
+t=str(a[0])+str(b[0])+str(c[0])
+h=str(a[1])+str(b[1])+str(c[1])
+te=str(a[2])+str(b[2])+str(c[2])
+o=str(a[3])+str(b[3])+str(c[3])
+print(list(t))
+print(list(h))
+print(list(te))
+print(list(o))
+x1=sorted(t)
+x2=sorted(h)
+x3=sorted(te)
+x4=sorted(o)
+z=x1[0]+x2[0]+x3[0]+x4[0]
+print(z)
+l=[]
+for i in range(len(z)):
+    l.append(int(z[i]))
+print(sum(l))
