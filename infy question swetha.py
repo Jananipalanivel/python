@@ -28,4 +28,5 @@ if c%2==0:
 else:
     for i in range(0,len(o)):
         s=s+str(o[i])+str(e[i])
+print(s)
         
