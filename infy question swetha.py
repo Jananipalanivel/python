@@ -1,4 +1,4 @@
-n="Sweth129@001a@@"
+n="Sweth1229@011a@"
 l1=[]
 l2=[]
 l3=[]
@@ -22,11 +22,39 @@ for i in range(d):
     else:
         o.append(l4[i])
 s=""
-if c%2==0:
+if len(e)==len(o) and c%2==0:
     for i in range(0,len(e)):
         s=s+str(e[i])+str(o[i])
-else:
+    print(s)
+elif len(e)==len(o) and c%2!=0: 
     for i in range(0,len(o)):
         s=s+str(o[i])+str(e[i])
 print(s)
-        
+m=len(e)-len(o)
+if m>0:
+    n=m
+else:
+    n=-(m)
+z=""
+if len(e)>len(o) and c%2==0:
+    for i in range(0,len(o)):
+        z=z+str(e[i])+str(o[i])
+        z1=z+str(e[-1])
+    print(z1)
+elif len(e)>len(o) and c%2!=0: 
+    for i in range(0,len(o)):
+        z=z+str(o[i])+str(e[i])
+        z1=z+str(e[-1])
+    print(z1)
+if len(o)>len(e) and c%2==0:
+    for i in range(0,len(e)):
+        z=z+str(e[i])+str(o[i])
+        z1=z+str(o[-1])
+    print(z1)
+elif len(o)>len(e) and c%2!=0: 
+    for i in range(0,len(e)):
+        z=z+str(o[i])+str(e[i])
+        z1=z+str(o[-1])
+    print(z1)
+    
+    
