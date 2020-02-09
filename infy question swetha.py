@@ -1,4 +1,4 @@
-n="Sweth1229@011a@"
+n="Sweth1229@0100@a@"
 l1=[]
 l2=[]
 l3=[]
@@ -30,31 +30,37 @@ elif len(e)==len(o) and c%2!=0:
     for i in range(0,len(o)):
         s=s+str(o[i])+str(e[i])
 print(s)
-m=len(e)-len(o)
-if m>0:
-    n=m
-else:
-    n=-(m)
 z=""
 if len(e)>len(o) and c%2==0:
     for i in range(0,len(o)):
         z=z+str(e[i])+str(o[i])
-        z1=z+str(e[-1])
-    print(z1)
+        e1=e[len(o):]
+        z1=list(z)
+        for i in range(len(e1)):
+            z1.append(str(e1[i]))
+    print("".join(z1))
 elif len(e)>len(o) and c%2!=0: 
     for i in range(0,len(o)):
         z=z+str(o[i])+str(e[i])
-        z1=z+str(e[-1])
-    print(z1)
+        e1=e[len(o):]
+        z1=list(z)
+        for i in range(len(e1)):
+            z1.append(str(e1[i]))
+    print("".join(z1))
 if len(o)>len(e) and c%2==0:
     for i in range(0,len(e)):
         z=z+str(e[i])+str(o[i])
-        z1=z+str(o[-1])
-    print(z1)
+        o1=o[len(e):]
+        z1=list(z)
+        for i in range(len(o1)):
+            z1.append(str(o1[i]))
+    print("".join(z1))
 elif len(o)>len(e) and c%2!=0: 
     for i in range(0,len(e)):
         z=z+str(o[i])+str(e[i])
-        z1=z+str(o[-1])
-    print(z1)
-    
+        o1=o[len(e):]
+        z1=list(z)
+        for i in range(len(o1)):
+            z1.append(str(o1[i]))
+    print("".join(z1))
     
