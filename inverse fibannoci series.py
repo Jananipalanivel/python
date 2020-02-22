@@ -5,3 +5,6 @@ for i in l:
     if n%i==0:
         c=c-(c//i)
 print(c)
+#answer
+45
+24
